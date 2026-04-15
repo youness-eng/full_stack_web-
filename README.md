@@ -88,7 +88,7 @@ Relationships were designed using a Conceptual Data Model (MCD) and subsequently
 │   ├── js/                    # Client-side JavaScript and jQuery logic
 │   └── images/                # Product images, logos, and UI assets
 │   └── videos/                # Homepage media content
-└── rapport/                   # Internship report, UML diagrams, and data models
+└── Internship_report_documentation/                   # Internship report, UML diagrams, and data models
 ```
 
 ---
@@ -116,7 +116,7 @@ Relationships were designed using a Conceptual Data Model (MCD) and subsequently
 4. **Import the database**
    - Open `http://localhost/phpmyadmin`
    - Create a new database named `pharmacie_chaabia`
-   - Import the provided `.sql` file from the `/rapport` folder
+   - Import the provided `.sql` file from the `/Internship_report_documentation` folder
 
 5. **Configure the database connection**
    - Open `personne/config.php` (or equivalent connection file)
@@ -140,73 +140,73 @@ Relationships were designed using a Conceptual Data Model (MCD) and subsequently
 ## Screenshots
 
 ### Public Homepage
-![Homepage Header](rapport/screenshots/homepage-header.png)
+![Homepage Header](Internship_report_documentation/screenshots/homepage-header.png)
 *Navigation bar with pharmacy logo, page links, and search*
 
-![Product Categories](rapport/screenshots/homepage-categories.png)
+![Product Categories](Internship_report_documentation/screenshots/homepage-categories.png)
 *Category section showcasing Santé, Hygiène et soins, Phytothérapie, and more*
 
-![New Products](rapport/screenshots/homepage-nouveautes.png)
+![New Products](Internship_report_documentation/screenshots/homepage-nouveautes.png)
 *New arrivals section with product cards, pricing, and descriptions*
 
-![Promotions](rapport/screenshots/homepage-promotions.png)
+![Promotions](Internship_report_documentation/screenshots/homepage-promotions.png)
 *Active promotions displayed with original and discounted prices*
 
-![Brands](rapport/screenshots/homepage-marques.png)
+![Brands](Internship_report_documentation/screenshots/homepage-marques.png)
 *Featured brand carousel (e.g. Greens Idea)*
 
-![Footer](rapport/screenshots/homepage-footer.png)
+![Footer](Internship_report_documentation/screenshots/homepage-footer.png)
 *Footer with opening hours, category links, and social media*
 
 ### Authentication
-![Login Form](rapport/screenshots/login.png)
+![Login Form](Internship_report_documentation/screenshots/login.png)
 *Login and registration page with split-panel layout*
 
-![Registration Form](rapport/screenshots/register.png)
+![Registration Form](Internship_report_documentation/screenshots/register.png)
 *New account registration form*
 
 ### Patient Dashboard
-![Patient Dashboard](rapport/screenshots/patient-dashboard.png)
+![Patient Dashboard](Internship_report_documentation/screenshots/patient-dashboard.png)
 *Product catalogue, shopping cart, and order summary for authenticated patients*
 
-![Order Management](rapport/screenshots/patient-orders.png)
+![Order Management](Internship_report_documentation/screenshots/patient-orders.png)
 *Patient order history with status indicators and action controls*
 
 ### Contact Page
-![Contact Page](rapport/screenshots/contact.png)
+![Contact Page](Internship_report_documentation/screenshots/contact.png)
 *Contact form with pharmacy address, phone, email, and social links*
 
 ### Employee Dashboard
-![Employee Dashboard](rapport/screenshots/employee-dashboard.png)
+![Employee Dashboard](Internship_report_documentation/screenshots/employee-dashboard.png)
 *Admin panel overview with product, order, and message counters (dark theme)*
 
-![Product Management — Table View](rapport/screenshots/employee-products-table.png)
+![Product Management — Table View](Internship_report_documentation/screenshots/employee-products-table.png)
 *Product list with category, barcode, brand, stock, and price columns*
 
-![Product Management — Grid View](rapport/screenshots/employee-products-grid.png)
+![Product Management — Grid View](Internship_report_documentation/screenshots/employee-products-grid.png)
 *Alternate card-based product display*
 
-![Order Management](rapport/screenshots/employee-orders.png)
+![Order Management](Internship_report_documentation/screenshots/employee-orders.png)
 *Order table with client names, totals, and real-time status badges*
 
-![Category Management](rapport/screenshots/employee-categories.png)
+![Category Management](Internship_report_documentation/screenshots/employee-categories.png)
 *Category table with interest and definition fields*
 
 ### Pharmacist Dashboard
-![Pharmacist Dashboard](rapport/screenshots/pharmacist-dashboard.png)
+![Pharmacist Dashboard](Internship_report_documentation/screenshots/pharmacist-dashboard.png)
 *Extended admin panel with user management and anonymous message access*
 
-![User Management](rapport/screenshots/pharmacist-users.png)
+![User Management](Internship_report_documentation/screenshots/pharmacist-users.png)
 *Full user table with role assignment and CRUD actions*
 
-![Brand Management](rapport/screenshots/pharmacist-brands.png)
+![Brand Management](Internship_report_documentation/screenshots/pharmacist-brands.png)
 *Brand grid with logo display (Oral-B, Nuxe, Sensibio, Bioderma, etc.)*
 
 ---
 
 ## UML Diagrams
 
-The following UML artefacts were produced during the design phase and are available in the `/rapport` folder:
+The following UML artefacts were produced during the design phase and are available in the `/Internship_report_documentation` folder:
 
 - **Use Case Diagram** — illustrates interactions between all four actors and the system
 - **Sequence Diagram: Login** — models the authentication flow including success and failure scenarios
