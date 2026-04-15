@@ -131,8 +131,9 @@ Relationships were designed using a Conceptual Data Model (MCD) and subsequently
 
 | Role | Email | Password |
 |---|---|---|
-| Pharmacist | admin@gmail.com | (set during import) |
-| Employee | employee@gmail.com | (set during import) |
+| Pharmacist | admin@gmail.com | admin |
+| Employee | youness@gmail.com | youness |
+| Client | client@gmail.com | client |
 
 ---
 
@@ -201,8 +202,6 @@ Relationships were designed using a Conceptual Data Model (MCD) and subsequently
 ![Brand Management](rapport/screenshots/pharmacist-brands.png)
 *Brand grid with logo display (Oral-B, Nuxe, Sensibio, Bioderma, etc.)*
 
-> **Note:** To populate the screenshots above, export the images from the internship report and place them in `rapport/screenshots/` using the filenames shown.
-
 ---
 
 ## UML Diagrams
@@ -244,4 +243,4 @@ This application was developed over a **2-month internship** (academic year 2020
 ## Author
 
 **Youness Bouhjar**  
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username) · [Email](mailto:your@email.com)
+[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/youness-eng) · [Email](mailto:youness14bouhjar@email.com)
