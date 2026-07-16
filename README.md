@@ -243,4 +243,4 @@ This application was developed over a **2-month internship** (academic year 2020
 ## Author
 
 **Youness Bouhjar**  
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/youness-eng) · [Email](mailto:youness14bouhjar@email.com)
+[LinkedIn](https://www.linkedin.com/in/youness-bouhjar-066a92286/) · [GitHub](https://github.com/youness-eng) · [Email](mailto:youness14bouhjar@email.com)
